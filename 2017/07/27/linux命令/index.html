@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]>
+<html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<!--
+***************  *      *     *
+      8          *    *       *
+      8          *  *         *
+      8          **           *
+      8          *  *         *
+      8          *    *       *
+      8          *      *     *
+      8          *        *   ***********    -----Theme By Kieran(http://go.kieran.top)
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
+<head>
+  <title>linux命令 | DreamGalaxy</title>
+  <!-- Meta data -->
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="DreamGalaxy">
+    <meta name="author" content="Dream">
+    <meta name="description" content="我好菜啊" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicon, (keep icon in root folder) -->
+    <link rel="Shortcut Icon" href="/img/favicon.ico" type="image/ico">
+
+    <link rel="alternate" href="/atom.xml" title="DreamGalaxy" type="application/atom+xml">
+    <link rel="stylesheet" href="/css/all.css" media="screen" type="text/css">
+    
+    <link rel="stylesheet" href="/highlightjs/vs.css" type="text/css">
+    
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+    <![endif]-->
+
+    <!-- jQuery | Load our jQuery, with an alternative source fallback to a local version if request is unavailable -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+  
+  
+  
+
+  <style>.col-md-8.col-md-offset-2.opening-statement img{display:none;}</style>
+</head>
+
+<!--
+<body class="post-template">
+-->
+<body id="index" class="lightnav animsition">
+
+      <!-- ============================ Off-canvas navigation =========================== -->
+
+    <div class="sb-slidebar sb-right sb-style-overlay sb-momentum-scrolling">
+        <div class="sb-close" aria-label="Close Menu" aria-hidden="true">
+            <img src="/img/close.png" alt="Close"/>
+        </div>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu">
+            <li><a href="/" class="animsition-link" title="Home">Home</a></li>
+            <li><a href="/archives" class="animsition-link" title="archive">archives</a></li>
+            <!-- Dropdown Menu -->
+			 
+            <li>
+                <a class="sb-toggle-submenu">Works<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                        <li><a href="" target="_BLANK" class="animsition-link">我不会这些代码</a></li>
+                    
+                        <li><a href="" target="_BLANK" class="animsition-link">所以别点了没东西</a></li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li>
+                <a class="sb-toggle-submenu">Links<span class="sb-caret"></span></a>
+                <ul class="sb-submenu">
+                    
+                    <li><a href="http://www.baidu.com/" class="animsition-link">百度</a></li>
+                    
+                    <li><a href="http://www.Google.com/" class="animsition-link">Google</a></li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+        <!-- Lists in Slidebars -->
+        <ul class="sb-menu secondary">
+            <li><a href="/about.html" class="animsition-link" title="about">About</a></li>
+            <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
+        </ul>
+    </div>
+    
+    <!-- ============================ END Off-canvas navigation =========================== -->
+
+    <!-- ============================ #sb-site Main Page Wrapper =========================== -->
+
+    <div id="sb-site">
+        <!-- #sb-site - All page content should be contained within this id, except the off-canvas navigation itself -->
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+        <div id="navigation" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <!-- Nav logo -->
+                    <div class="logo">
+                        <a href="/" title="Logo" class="animsition-link">
+                         <img src="/img/pokeball5.png" alt="Logo" width="35px;"/> 
+                        </a>
+                    </div>
+                    <!-- // Nav logo -->
+                    <!-- Info-bar -->
+                    <nav>
+                        <ul class="nav">
+                            <li><a href="/" class="animsition-link">DreamGalaxy</a></li>
+                            <li class="nolink"><span>Always </span>Creative.</li>
+                            
+                            <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a></li>
+                            
+                            
+                            <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+                            
+                            
+                            <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                            
+                            
+                            <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a></li>
+                            
+                            
+                            <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a></li>
+                            
+                            <li class="nolink"><span>Welcome!</span></li>
+                        </ul>
+                    </nav>
+                    <!--// Info-bar -->
+                </div>
+                <!-- // .container -->
+                <div class="learnmore sb-toggle-right">More</div>
+                <button type="button" class="navbar-toggle menu-icon sb-toggle-right" title="More">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar before"></span>
+                <span class="icon-bar main"></span>
+                <span class="icon-bar after"></span>
+                </button>
+            </div>
+            <!-- // .navbar-inner -->
+        </div>
+
+        <!-- ============================ Header & Logo bar =========================== -->
+
+
+      
+<section id="intro">
+    <div class="container">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2017-07-27T09:50:14.000Z" itemprop="datePublished">
+          2017-07-27
+      </time>
+    
+    
+    | 
+    <a href='/tags/linux/'>linux</a>
+    
+    
+</span>
+                <h1>linux命令</h1>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+      		<p>先声明下，本文中内容几乎全为转载，每个命令都有原作的链接，也谢谢这些作者。</p>
+<h1 id="文件管理命令"><a href="#文件管理命令" class="headerlink" title="文件管理命令"></a>文件管理命令</h1><h2 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h2><p>cat 命令用于连接文件并打印到标准输出设备上。<br><a href="http://www.cnblogs.com/perfy/archive/2012/07/23/2605550.html" target="_blank" rel="external">详细教程：</a>  </p>
+<h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>cat [-AbeEnstTuv] [–help] [–version] fileName<br>cat主要有三大功能：<br>1.一次显示整个文件。$ cat filename<br>2.从键盘创建一个文件。$ cat &gt; filename<br>   只能创建新文件,不能编辑已有文件.<br>3.将几个文件合并为一个文件： $cat file1 file2 &gt; file  </p>
+</blockquote>
+<h4 id="警告："><a href="#警告：" class="headerlink" title="警告："></a>警告：</h4><p>我们要知道&gt;意思是创建，&gt;&gt;是追加。千万不要弄混了。造成失误可不是闹着玩的；</p>
+<h3 id="参数说明"><a href="#参数说明" class="headerlink" title="参数说明"></a>参数说明</h3><p>-n 或 –number：由 1 开始对所有输出的行数编号。<br>-b 或 –number-nonblank：和 -n 相似，只不过对于空白行不编号。<br>-s 或 –squeeze-blank：当遇到有连续两行以上的空白行，就代换为一行的空白行。<br>-v 或 –show-nonprinting：使用 ^ 和 M- 符号，除了 LFD 和 TAB 之外。<br>-E 或 –show-ends : 在每行结束处显示 $。<br>-T 或 –show-tabs: 将 TAB 字符显示为 ^I。<br>-e : 等价于 -vE。<br>-A, –show-all：等价于 -vET。<br>-t：等价于”-vT”选项。  </p>
+<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><ul>
+<li>创建和补充<br><img src="/2017/07/27/linux命令/cat1.png" alt="">  </li>
+<li>连接多个文件的内容并且输出到一个新文件中<br><img src="/2017/07/27/linux命令/cat2.png" alt=""><br>其原理是把两个文件的内容连接起来，然后创建third.txt文件，并且把几个文件的内容同时写入third.txt中。特别值得一提的是，如果您输入到一个已经存在的third.txt 文件，会把sir04.txt内容清空。如果存在third.txt想追加，则将”&gt;”改为”&gt;&gt;”。  </li>
+</ul>
+<h2 id="chmod"><a href="#chmod" class="headerlink" title="chmod"></a>chmod</h2><p>确定了一个文件的访问权限后，用户可以利用Linux系统提供的chmod命令来重新设定不同的访问权限。也可以利用chown命令来更改某个文件或目录的所有者。利用chgrp命令来更改某个文件或目录的用户组。<br><a href="http://www.cnblogs.com/avril/archive/2010/03/23/1692809.html" target="_blank" rel="external">详细教程</a>  </p>
+<h3 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a>语法</h3><ol>
+<li><p>文字设定法  </p>
+<blockquote>
+<p>chmod ［who］ ［+ | - | =］ ［mode］ 文件名  </p>
+</blockquote>
+</li>
+<li><p>数字设定法   </p>
+<blockquote>
+<p>chmod ［mode］ 文件名  </p>
+<h3 id="参数说明-1"><a href="#参数说明-1" class="headerlink" title="参数说明"></a>参数说明</h3><p>1 文字设定法<br>命令中各选项的含义为：<br>操作对象who可是下述字母中的任一个或者它们的组合：<br>u 表示“用户（user）”，即文件或目录的所有者。<br>g 表示“同组（group）用户”，即与文件属主有相同组ID的所有用户。<br>o 表示“其他（others）用户”。<br>a 表示“所有（all）用户”。它是系统默认值。<br>操作符号可以是：<br>　+ 添加某个权限。<br>　- 取消某个权限。<br>　= 赋予给定权限并取消其他所有权限（如果有的话）。  </p>
+</blockquote>
+</li>
+</ol>
+<p>设置mode所表示的权限可用下述字母的任意组合：<br>r 可读。<br>w 可写。<br>x 可执行。<br>X 只有目标文件对某些用户是可执行的或该目标文件是目录时才追加x 属性。<br>s 在文件执行时把进程的属主或组ID置为该文件的文件属主。方式“u＋s”设置文件的用户ID位，“g＋s”设置组ID位。<br>t 保存程序的文本到交换设备上。<br>u 与文件属主拥有一样的权限。<br>g 与和文件属主同组的用户拥有一样的权限。<br>o 与其他用户拥有一样的权限。<br>文件名：以空格分开的要改变权限的文件列表，支持通配符。<br>在一个命令行中可给出多个权限方式，其间用逗号隔开。例如：chmod g+r，o+r example<br>使同组和其他用户对文件example 有读权限。  </p>
+<p>2 数字设定法<br>我们必须首先了解用数字表示的属性的含义：0表示没有权限，1表示可执行权限，2表示可写权限，4表示可读权限，然后将其相加。所以数字属性的格式应为3个从0到7的八进制数，其顺序是（u）（g）（o）。<br>例如，如果想让某个文件的属主有“读/写”二种权限，需要把4（可读）+2（可写）＝6（读/写）。  </p>
+<h3 id="实例-1"><a href="#实例-1" class="headerlink" title="实例"></a>实例</h3><p><img src="/2017/07/27/linux命令/chmod.png" alt=""></p>
+<h2 id="more"><a href="#more" class="headerlink" title="more"></a>more</h2><p>more功能类似 cat ，cat命令是整个文件的内容从上到下显示在屏幕上。 more会以一页一页的显示方便使用者逐页阅读，而最基本的指令就是按空白键（space）就往下一页显示，按 b 键就会往回（back）一页显示，而且还有搜寻字串的功能 。more命令从前向后读取文件，因此在启动时就加载整个文件。<br><a href="http://www.cnblogs.com/aijianshi/p/5750911.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>more [-dlfpcsu ] [-num ] [+/ pattern] [+ linenum] [file … ]  </p>
+<h3 id="参数说明-2"><a href="#参数说明-2" class="headerlink" title="参数说明"></a>参数说明</h3><p>+n      从笫n行开始显示<br>-n       定义屏幕大小为n行<br>+/pattern 在每个档案显示前搜寻该字串（pattern），然后从该字串前两行之后开始显示<br>-c       从顶部清屏，然后显示<br>-d       提示“Press space to continue，’q’ to quit（按空格键继续，按q键退出）”，禁用响铃功能<br>-l        忽略Ctrl+l（换页）字符<br>-p       通过清除窗口而不是滚屏来对文件进行换页，与-c选项相似<br>-s       把连续的多个空行显示为一行<br>-u       把文件内容中的下画线去掉  </p>
+<h3 id="常用操作命令"><a href="#常用操作命令" class="headerlink" title="常用操作命令"></a>常用操作命令</h3><p>Enter    向下n行，需要定义。默认为1行<br>Ctrl+F   向下滚动一屏<br>空格键  向下滚动一屏<br>Ctrl+B  返回上一屏<br>=       输出当前行的行号<br>：f     输出文件名和当前行的行号<br>V      调用vi编辑器<br>!命令   调用Shell，并执行命令<br>q       退出more  </p>
+<h3 id="实例-2"><a href="#实例-2" class="headerlink" title="实例"></a>实例</h3><p><img src="/2017/07/27/linux命令/more.png" alt=""></p>
+</blockquote>
+<h2 id="mv"><a href="#mv" class="headerlink" title="mv"></a>mv</h2><p>mv命令是move的缩写，可以用来移动文件或者将文件改名（move (rename) files），是Linux系统下常用的命令，经常用来备份文件或者目录。<br><a href="http://www.cnblogs.com/nerxious/archive/2013/01/08/2851015.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-3"><a href="#语法-3" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>mv [options] existing-file new-filename<br>mv [options] existing-file-list directory<br>mv [options] existing-directory new-directory  </p>
+</blockquote>
+<p>第一种形式：existing-file 是需要重命名的文件路径; new-filename 是文件的新路径名，用于重命名或覆盖<br>第二种形式：existing-file 是需要移动的文件路径列表; directory 是文件需要移动到的新目录，用于移动<br>第三种形式：existing-file 是需要重命名的目录路径; new-directory 是目录的新路径名，用于重命名或覆盖   </p>
+<h3 id="参数说明-3"><a href="#参数说明-3" class="headerlink" title="参数说明"></a>参数说明</h3><p>-b                如果已存在相同文件名，则覆盖前进行备份<br>-f                 如果已存在相同文件名，而用户不具有写的权限，则强制覆盖<br>-i                 如果已存在相同文件名，覆盖前提示用户进行确认<br>-u                比较原文件与目标文件修改时间，如果目标文件较新则不覆盖<br>-v                列出所有被移动或重命名的文件  </p>
+<h3 id="实例-3"><a href="#实例-3" class="headerlink" title="实例"></a>实例</h3><p><img src="/2017/07/27/linux命令/mv.png" alt=""></p>
+<h2 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h2><p>用户可以用rm命令删除不需要的文件。该命令的功能为删除一个目录中的一个或多个文件或目录，它也可以将某个目录及其下的所有文件及子目录均删除。对于链接文件，只是断开了链接，原文件保持不变。<br><a href="http://www.cnblogs.com/wanqieddy/archive/2011/06/07/2074113.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-4"><a href="#语法-4" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>rm [选项]… 目录… 删除指定的&lt;文件&gt;(即解除链接)  </p>
+</blockquote>
+<p>要删除第一个字符为‘-’的文件 (例如‘-foo’)，请使用以下其中一种方法：<br>rm – -foo<br>rm ./-foo  </p>
+<h3 id="参数说明-4"><a href="#参数说明-4" class="headerlink" title="参数说明"></a>参数说明</h3><p>-d      –directory    删除可能仍有数据的目录 (只限超级用户)<br>-f      –force          略过不存在的文件，不显示任何信息<br>-i      –interactive 进行任何删除操作前必须先确认<br>-r/R –recursive    同时删除该目录下的所有目录层<br>-v      –verbose     详细显示进行的步骤<br>          –help            显示此帮助信息并离开<br>         –version      显示版本信息并离开  </p>
+<h3 id="实例-4"><a href="#实例-4" class="headerlink" title="实例"></a>实例</h3><p><img src="/2017/07/27/linux命令/rm.png" alt=""></p>
+<h2 id="touch"><a href="#touch" class="headerlink" title="touch"></a>touch</h2><p>创建文件或修改文件时间</p>
+<h3 id="语法-5"><a href="#语法-5" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>touch [options] file-list</p>
+<h3 id="参数说明-5"><a href="#参数说明-5" class="headerlink" title="参数说明"></a>参数说明</h3><p>file-list是touch将要创建或更新的文件路径名<br>-a                    只更新访问时间，不改变修改时间<br>-c                    不创建不存在的文件<br>-m                   只更新修改时间，不改变访问时间<br>-r file               使用文件file的时间更新文件的时间<br>-t                     将时间修改为参数指定的日期,如：07081556代表7月8号15点56分  </p>
+<h3 id="实例-5"><a href="#实例-5" class="headerlink" title="实例"></a>实例</h3><p>用touch创建文件并修改访问时间<br><img src="/2017/07/27/linux命令/touch.png" alt=""></p>
+</blockquote>
+<h2 id="cp"><a href="#cp" class="headerlink" title="cp"></a>cp</h2><p>cp命令用来将一个或多个源文件或者目录复制到指定的目的文件或目录。它可以将单个源文件复制成一个指定文件名的具体的文件或一个已经存在的目录下。cp命令还支持同时复制多个文件，当一次复制多个文件时，目标文件参数必须是一个已经存在的目录，否则将出现错误。<br><a href="http://www.cnblogs.com/xd502djj/archive/2011/11/25/2263562.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-6"><a href="#语法-6" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>cp [options] source dest</p>
+<h3 id="参数说明-6"><a href="#参数说明-6" class="headerlink" title="参数说明"></a>参数说明</h3><p> -a 或 –archive     此参数的效果和同时指定”-dpR”参数相同<br> -b 或 –backup      删除、覆盖目的文件先备份，备份的文件或目录亦建立为符号链接，并指向源文件或目录链接的源文件或目录。假如没有加上这个参数，在复制过程中若遇到符号链接，则会直接复制源文件或目录<br>-f 或 –force       强行复制文件或目录， 不论目的文件或目录是否已经存在<br>-i 或 –interactive 覆盖文件之前先询问用户<br>-l 或 –link        对源文件建立硬链接，而非复制文件<br>-p 或 –preserve    保留源文件或目录的属性，包括所有者、所属组、权限与时间<br>-P 或 –parents     保留源文件或目录的路径，此路径可以是绝对路径或相对路径，且目的目录必须已经丰在<br>-r                  递归处理，将指定目录下的文件与子目录一并处理。若源文件或目录的形态，不属于目录或符号链接，则一律视为普通文件处理<br>-R 或 –recursive   递归处理，将指定目录下的文件及子目录一并处理<br>-s 或 –symbolic-link  对源文件建立符号链接，而非复制文件<br>-S &lt;备份字尾字符串&gt; 或 –suffix=&lt;备份字尾字符串&gt; 用”-b”参数备份目的文件后，备份文件的字尾会被加上一个备份字符串。默认的备份字尾符串是符号”~”<br>-u 或 –update      使用这项参数之后，只会在源文件的修改时间(Modification Time)较目的文件更新时，或是名称相互对应的目的文件并不存在，才复制文件<br>-v 或 –verbose     显示执行过程<br>-V &lt;备份方式&gt; 或 –version-control=&lt;备份方式&gt;  指定当备份文件时，备份文件名的命名方式，有以下3种:<br>1.numbered或t, 将使用备份编号，会在字尾加上~1~字符串，其数字编号依次递增<br>2.simple或never 将使用简单备份，默认的备份字尾字符串是~, 也可通过-S来指定<br>3.existing或nil将使用当前方式，程序会先检查是否存在着备份编号，若有则采用备份编号，若无则采用简单备份<br>-x 或 –one-file-system  复制的文件或目录存放的文件系统，必须与cp指令执行时所处的文件系统相同，否则不复制，亦不处理位于其他分区的文件<br>–help              显示在线帮助<br>–sparse=&lt;使用时机&gt;  设置保存希疏文件的时机<br>–version           显示版本  </p>
+<h3 id="实例-6"><a href="#实例-6" class="headerlink" title="实例"></a>实例</h3><p><img src="/2017/07/27/linux命令/cp.png" alt="">  </p>
+</blockquote>
+<h1 id="文档编辑命令"><a href="#文档编辑命令" class="headerlink" title="文档编辑命令"></a>文档编辑命令</h1><h2 id="grep"><a href="#grep" class="headerlink" title="grep"></a>grep</h2><p>Linux系统中grep命令是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹 配的行打印出来。grep全称是Global Regular Expression Print，表示全局正则表达式版本，它的使用权限是所有用户。<br><a href="http://www.cnblogs.com/end/archive/2012/02/21/2360965.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-7"><a href="#语法-7" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>grep [options]</p>
+<h3 id="参数说明-7"><a href="#参数说明-7" class="headerlink" title="参数说明"></a>参数说明</h3><p>[options]主要参数：<br>－c：只输出匹配行的计数。<br>－I：不区分大 小写(只适用于单字符)。<br>－h：查询多文件时不显示文件名。<br>－l：查询多文件时只输出包含匹配字符的文件名。<br>－n：显示匹配行及 行号。<br>－s：不显示不存在或无匹配文本的错误信息。<br>－v：显示不包含匹配文本的所有行。<br>pattern正则表达式主要参数：<br>\： 忽略正则表达式中特殊字符的原有含义。<br>^：匹配正则表达式的开始行。<br>$: 匹配正则表达式的结束行。<br>\&lt;：从匹配正则表达 式的行开始。<br>>：到匹配正则表达式的行结束。<br>[ ]：单个字符，如[A]即A符合要求 。<br>[ - ]：范围，如[A-Z]，即A、B、C一直到Z都符合要求 。<br>。：所有的单个字符。<br>* ：有字符，长度可以为0。  </p>
+<h3 id="实例-7"><a href="#实例-7" class="headerlink" title="实例"></a>实例</h3><p><img src="/2017/07/27/linux命令/grep.png" alt=""> </p>
+<h1 id="文件传输命令"><a href="#文件传输命令" class="headerlink" title="文件传输命令"></a>文件传输命令</h1><h2 id="ftp"><a href="#ftp" class="headerlink" title="ftp"></a>ftp</h2><p>Linux ftp命令设置文件系统相关功能。<br><a href="http://www.runoob.com/linux/linux-comm-ftp.html" target="_blank" rel="external">详细教程</a>  </p>
+<h3 id="语法-8"><a href="#语法-8" class="headerlink" title="语法"></a>语法</h3><p>ftp [-dignv][主机名称或IP地址]  </p>
+<h3 id="参数说明-8"><a href="#参数说明-8" class="headerlink" title="参数说明"></a>参数说明</h3><p>-d 详细显示指令执行过程，便于排错或分析程序执行的情形。<br>-i 关闭互动模式，不询问任何问题。<br>-g 关闭本地主机文件名称支持特殊字符的扩充特性。<br>-n 不使用自动登陆。<br>-v 显示指令执行过程。  </p>
+<h3 id="实例-8"><a href="#实例-8" class="headerlink" title="实例"></a>实例</h3><p>例如使用ftp命令匿名登录ftp.kernel.org服务器，该服务是Linux 内核的官方服务器，可以使用如下命令：<br>ftp ftp.kernel.org #发起链接请求 </p>
+</blockquote>
+<h2 id="cd"><a href="#cd" class="headerlink" title="cd"></a>cd</h2><p>Linux cd命令用于切换当前工作目录至 dirName(目录参数)。<br>其中 dirName 表示法可为绝对路径或相对路径。若目录名称省略，则变换至使用者的 home 目录 (也就是刚 login 时所在的目录)。<br><a href="http://www.runoob.com/linux/linux-comm-cd.html" target="_blank" rel="external">详细教程</a>  </p>
+<h3 id="语法-9"><a href="#语法-9" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>cd [dirName]   </p>
+<h3 id="参数说明-9"><a href="#参数说明-9" class="headerlink" title="参数说明"></a>参数说明</h3><p>dirName：要切换的目标目录。<br>另外，”~” 也表示为 home 目录 的意思，”.” 则是表示目前所在的目录，”..” 则表示目前目录位置的上一层目录。 </p>
+<h3 id="实例-9"><a href="#实例-9" class="headerlink" title="实例"></a>实例</h3><p><em>跳到 /usr/bin/ :<br><img src="/2017/07/27/linux命令/cd1.png" alt="">   
+</em>跳到自己的 home 目录 :<br><img src="/2017/07/27/linux命令/cd2.png" alt="">   </p>
+</blockquote>
+<h2 id="mkdir"><a href="#mkdir" class="headerlink" title="mkdir"></a>mkdir</h2><p>linux mkdir用来创建目录，要求创建目录的用户在当前目录中具有写权限，并且指定的目录名不能是当前目录中已有的目录。<br><a href="http://www.cnblogs.com/gamehiboy/articles/4976739.html" target="_blank" rel="external">详细教程</a>  </p>
+<h3 id="语法-10"><a href="#语法-10" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>mkdir 【选项】【文件名】  </p>
+<h3 id="参数说明-10"><a href="#参数说明-10" class="headerlink" title="参数说明"></a>参数说明</h3><p>使用帮助命令：man mkdir或mkdir -help<br>-m –mode=模式，设定权限&lt;模式&gt; (类似 chmod)，而不是 rwxrwxrwx 减 umask<br>-p –parents 递归创建目录<br>-v, –verbose 每次创建新目录都显示信息<br>　  –help 显示此帮助信息并退出<br>    –version 输出版本信息并退出  </p>
+<h3 id="实例-10"><a href="#实例-10" class="headerlink" title="实例"></a>实例</h3><ul>
+<li>创建权限为777的目录<br><img src="/2017/07/27/linux命令/mkdir.png" alt=""> <h2 id="pwd"><a href="#pwd" class="headerlink" title="pwd"></a>pwd</h2>Linux中用 pwd 命令来查看”当前工作目录“的完整路径。在不太确定当前位置时，就会使用pwd来判定当前目录在文件系统内的确切位置。<br><a href="http://www.jb51.net/LINUXjishu/151032.html" target="_blank" rel="external">详细教程</a>  <h3 id="语法-11"><a href="#语法-11" class="headerlink" title="语法"></a>语法</h3>pwd [选项]<h3 id="参数说明-11"><a href="#参数说明-11" class="headerlink" title="参数说明"></a>参数说明</h3>一般情况下不带任何参数<br>如果目录是链接时：<br>格式：pwd -P  显示出实际路径，而非使用连接（link）路径。<h3 id="实例-11"><a href="#实例-11" class="headerlink" title="实例"></a>实例</h3><img src="/2017/07/27/linux命令/pwd.png" alt="">  <h2 id="mount"><a href="#mount" class="headerlink" title="mount"></a>mount</h2>Linux mount命令是经常会使用到的命令，它用于挂载Linux系统外的文件<br><a href="http://www.runoob.com/linux/linux-comm-mount.html" target="_blank" rel="external">详细教程</a><h3 id="语法-12"><a href="#语法-12" class="headerlink" title="语法"></a>语法</h3>mount [-hV]<br>mount -a [-fFnrsvw] [-t vfstype]<br>mount [-fnrsvw] [-o options [,…]] device | dir<br>mount [-fnrsvw] [-t vfstype] [-o options] device dir  <h3 id="参数说明-12"><a href="#参数说明-12" class="headerlink" title="参数说明"></a>参数说明</h3>-V：显示程序版本<br>-h：显示辅助讯息<br>-v：显示较讯息，通常和 -f 用来除错。<br>-a：将 /etc/fstab 中定义的所有档案系统挂上。<br>-F：这个命令通常和 -a 一起使用，它会为每一个 mount 的动作产生一个行程负责执行。在系统需要挂上大量 NFS 档案系统时可以加快挂上的动作。<br>-f：通常用在除错的用途。它会使 mount 并不执行实际挂上的动作，而是模拟整个挂上的过程。通常会和 -v 一起使用。<br>-n：一般而言，mount 在挂上后会在 /etc/mtab 中写入一笔资料。但在系统中没有可写入档案系统存在的情况下可以用这个选项取消这个动作。<br>-s-r：等于 -o ro<br>-w：等于 -o rw<br>-L：将含有特定标签的硬盘分割挂上。<br>-U：将档案分割序号为 的档案系统挂下。-L 和 -U 必须在/proc/partition 这种档案存在时才有意义。<br>-t：指定档案系统的型态，通常不必指定。mount 会自动选择正确的型态。<br>-o async：打开非同步模式，所有的档案读写动作都会用非同步模式执行。<br>-o sync：在同步模式下执行。<br>-o atime、-o noatime：当 atime 打开时，系统会在每次读取档案时更新档案的『上一次调用时间』。当我们使用 flash 档案系统时可能会选项把这个选项关闭以减少写入的次数。<br>-o auto、-o noauto：打开/关闭自动挂上模式。<br>-o defaults:使用预设的选项 rw, suid, dev, exec, auto, nouser, and async.<br>-o dev、-o nodev-o exec、-o noexec允许执行档被执行。<br>-o suid、-o nosuid：<br>允许执行档在 root 权限下执行。<br>-o user、-o nouser：使用者可以执行 mount/umount 的动作。<br>-o remount：将一个已经挂下的档案系统重新用不同的方式挂上。例如原先是唯读的系统，现在用可读写的模式重新挂上。<br>-o ro：用唯读模式挂上。<br>-o rw：用可读写模式挂上。<br>-o loop=：使用 loop 模式用来将一个档案当成硬盘分割挂上系统。  <h3 id="实例-12"><a href="#实例-12" class="headerlink" title="实例"></a>实例</h3>将 /dev/hda1 挂在 /mnt 之下。<br>#mount /dev/hda1 /mnt</li>
+</ul>
+</blockquote>
+<p>将 /dev/hda1 用唯读模式挂在 /mnt 之下。  </p>
+<blockquote>
+<p>#mount -o ro /dev/hda1 /mnt</p>
+</blockquote>
+<h2 id="rmdir"><a href="#rmdir" class="headerlink" title="rmdir"></a>rmdir</h2><p>rmdir命令用来删除空目录。当目录不再被使用时，或者磁盘空间已到达使用限定值，就需要删除失去使用价值的目录。<br><a href="http://man.linuxde.net/rmdir" target="_blank" rel="external">详细教程</a>  </p>
+<h3 id="语法-13"><a href="#语法-13" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>rmdir(选项)(参数)  </p>
+<h3 id="参数说明-13"><a href="#参数说明-13" class="headerlink" title="参数说明"></a>参数说明</h3><p>-p或–parents：删除指定目录后，若该目录的上层目录已变成空目录，则将其一并删除；  –ignore-fail-on-non-empty：此选项使rmdir命令忽略由于删除非空目录时导致的错误信息；<br>-v或-verboes：显示命令的详细执行过程；<br>–help：显示命令的帮助信息；<br>–version：显示命令的版本信息。</p>
+<h3 id="实例-13"><a href="#实例-13" class="headerlink" title="实例"></a>实例</h3><p><img src="/2017/07/27/linux命令/rmdir.png" alt=""></p>
+</blockquote>
+<h2 id="ls"><a href="#ls" class="headerlink" title="ls"></a>ls</h2><p>Linux ls命令用于显示指定工作目录下之内容（列出目前工作目录所含之文件及子目录)。<br><a href="http://www.runoob.com/linux/linux-comm-ls.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-14"><a href="#语法-14" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>ls [-alrtAFR] [name…]</p>
+<h3 id="参数说明-14"><a href="#参数说明-14" class="headerlink" title="参数说明"></a>参数说明</h3><p>-a 显示所有文件及目录 (ls内定将文件名或目录名称开头为”.”的视为隐藏档，不会列出)<br>-l 除文件名称外，亦将文件型态、权限、拥有者、文件大小等资讯详细列出<br>-r 将文件以相反次序显示(原定依英文字母次序)<br>-t 将文件依建立时间之先后次序列出<br>-A 同 -a ，但不列出 “.” (目前目录) 及 “..” (父目录)<br>-F 在列出的文件名称后加一符号；例如可执行档则加 “*”, 目录则加 “/“<br>-R 若目录下有文件，则以下之文件亦皆依序列出  </p>
+<h3 id="实例-14"><a href="#实例-14" class="headerlink" title="实例"></a>实例</h3><p><img src="/2017/07/27/linux命令/ls.png" alt=""></p>
+</blockquote>
+<h1 id="网络通讯命令"><a href="#网络通讯命令" class="headerlink" title="网络通讯命令"></a>网络通讯命令</h1><h2 id="ifconfig"><a href="#ifconfig" class="headerlink" title="ifconfig"></a>ifconfig</h2><p>Linux ifconfig命令用于显示或设置网络设备。<br>ifconfig可设置网络设备的状态，或是显示目前的设置。<br>注意:  用ifconfig命令配置的网卡信息，在网卡重启后机器重启后，配置就不存在。要想将上述的配置信息永远的存在电脑里，那就要修改网卡的配置文件了。<br><a href="http://xp9802.iteye.com/blog/2120351" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-15"><a href="#语法-15" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>ifconfig [网络设备] [参数]  </p>
+<h3 id="参数说明-15"><a href="#参数说明-15" class="headerlink" title="参数说明"></a>参数说明</h3><p>up 启动指定网络设备/网卡。<br>down 关闭指定网络设备/网卡。该参数可以有效地阻止通过指定接口的IP信息流，如果想永久地关闭一个接口，我们还需要从核心路由表中将该接口的路由信息全部删除。<br>arp 设置指定网卡是否支持ARP协议。<br>-promisc 设置是否支持网卡的promiscuous模式，如果选择此参数，网卡将接收网络中发给它所有的数据包<br>-allmulti 设置是否支持多播模式，如果选择此参数，网卡将接收网络中所有的多播数据包<br>-a 显示全部接口信息<br>-s 显示摘要信息（类似于 netstat -i）<br>add 给指定网卡配置IPv6地址<br>del 删除指定网卡的IPv6地址<br>&lt;硬件地址&gt; 配置网卡最大的传输单元<br>mtu&lt;字节数&gt; 设置网卡的最大传输单元 (bytes)<br>netmask&lt;子网掩码&gt; 设置网卡的子网掩码。掩码可以是有前缀0x的32位十六进制数，也可以是用点分开的4个十进制数。如果不打算将网络分成子网，可以不管这一选项；如果要使用子网，那么请记住，网络中每一个系统必须有相同子网掩码。<br>tunel 建立隧道<br>dstaddr 设定一个远端地址，建立点对点通信<br>-broadcast&lt;地址&gt; 为指定网卡设置广播协议<br>-pointtopoint&lt;地址&gt; 为网卡设置点对点通讯协议<br>multicast 为网卡设置组播标志<br>address 为网卡设置IPv4地址<br>txqueuelen&lt;长度&gt; 为网卡设置传输列队的长度  </p>
+</blockquote>
+<h2 id="ping"><a href="#ping" class="headerlink" title="ping"></a>ping</h2><p>Linux系统的ping命令是常用的网络命令，它通常用来测试与目标主机的连通性<br><a href="http://www.cnblogs.com/peida/archive/2013/03/06/2945407.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-16"><a href="#语法-16" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>ping [参数] [主机名或IP地址]  </p>
+</blockquote>
+<p>linux下的ping和windows下的ping稍有区别,linux下ping不会自动终止,需要按ctrl+c终止或者用参数-c指定要求完成的回应次数。</p>
+<h3 id="参数说明-16"><a href="#参数说明-16" class="headerlink" title="参数说明"></a>参数说明</h3><p>-d 使用Socket的SO_DEBUG功能。<br>-f  极限检测。大量且快速地送网络封包给一台机器，看它的回应。<br>-n 只输出数值。<br>-q 不显示任何传送封包的信息，只显示最后的结果。<br>-r 忽略普通的Routing Table，直接将数据包送到远端主机上。通常是查看本机的网络接口是否有问题。<br>-R 记录路由过程。<br>-v 详细显示指令的执行过程。<br>-c 数目：在发送指定数目的包后停止。<br>-i 秒数：设定间隔几秒送一个网络封包给一台机器，预设值是一秒送一次。<br>-I 网络界面：使用指定的网络界面送出数据包。<br>-l 前置载入：设置在送出要求信息之前，先行发出的数据包。<br>-p 范本样式：设置填满数据包的范本样式。<br>-s 字节数：指定发送的数据字节数，预设值是56，加上8字节的ICMP头，一共是64ICMP数据字节。<br>-t 存活数值：设置存活数值TTL的大小。  </p>
+<h2 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a>netstat</h2><p>Linux netstat命令用于显示网络状态。<br>利用netstat指令可让你得知整个Linux系统的网络情况。<br><a href="http://www.cnblogs.com/ggjucheng/archive/2012/01/08/2316661.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-17"><a href="#语法-17" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>netstat [-acCeFghilMnNoprstuvVwx][-A&lt;网络类型&gt;][–ip]</p>
+<h3 id="参数说明-17"><a href="#参数说明-17" class="headerlink" title="参数说明"></a>参数说明</h3><p>-a或–all 显示所有连线中的Socket。<br>-A&lt;网络类型&gt;或–&lt;网络类型&gt; 列出该网络类型连线中的相关地址。<br>-c或–continuous 持续列出网络状态。<br>-C或–cache 显示路由器配置的快取信息。<br>-e或–extend 显示网络其他相关信息。<br>-F或–fib 显示FIB。<br>-g或–groups 显示多重广播功能群组组员名单。<br>-h或–help 在线帮助。<br>-i或–interfaces 显示网络界面信息表单。<br>-l或–listening 显示监控中的服务器的Socket。<br>-M或–masquerade 显示伪装的网络连线。<br>-n或–numeric 直接使用IP地址，而不通过域名服务器。<br>-N或–netlink或–symbolic 显示网络硬件外围设备的符号连接名称。<br>-o或–timers 显示计时器。<br>-p或–programs 显示正在使用Socket的程序识别码和程序名称。<br>-r或–route 显示Routing Table。<br>-s或–statistice 显示网络工作信息统计表。<br>-t或–tcp 显示TCP传输协议的连线状况。<br>-u或–udp 显示UDP传输协议的连线状况。<br>-v或–verbose 显示指令执行过程。<br>-V或–version 显示版本信息。<br>-w或–raw 显示RAW传输协议的连线状况。<br>-x或–unix 此参数的效果和指定”-A unix”参数相同。<br>–ip或–inet 此参数的效果和指定”-A inet”参数相同。  </p>
+</blockquote>
+<h1 id="系统管理命令"><a href="#系统管理命令" class="headerlink" title="系统管理命令"></a>系统管理命令</h1><h2 id="kill"><a href="#kill" class="headerlink" title="kill"></a>kill</h2><p>发送指定的信号到相应进程。不指定型号将发送SIGTERM（15）终止指定进程。如果任无法终止该程序可用“-KILL” 参数，其发送的信号为SIGKILL(9) ，将强制结束进程，使用ps命令或者jobs 命令可以查看进程号。root用户将影响用户的进程，非root用户只能影响自己的进程。<br><a href="http://www.cnblogs.com/wangcp-2014/p/5146343.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-18"><a href="#语法-18" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>kill[参数][进程号]</p>
+<h3 id="参数说明-18"><a href="#参数说明-18" class="headerlink" title="参数说明"></a>参数说明</h3><p>-l  信号，若果不加信号的编号参数，则使用“-l”参数会列出全部的信号名称<br>-a  当处理当前进程时，不限制命令名和进程号的对应关系<br>-p  指定kill 命令只打印相关进程的进程号，而不发送任何信号<br>-s  指定发送信号<br>-u  指定用户   </p>
+<h3 id="实例-15"><a href="#实例-15" class="headerlink" title="实例"></a>实例</h3><ul>
+<li>显示信号<br><img src="/2017/07/27/linux命令/kill.png" alt=""><br>说明：<br>只有第9种信号(SIGKILL)才可以无条件终止进程，其他信号进程都有权利忽略。 下面是常用的信号：<br>HUP    1    终端断线<br>INT     2    中断（同 Ctrl + C）<br>QUIT    3    退出（同 Ctrl + \）<br>TERM   15    终止<br>KILL    9    强制终止<br>CONT   18    继续（与STOP相反， fg/bg命令）<br>STOP    19    暂停（同 Ctrl + Z）  <h2 id="ps"><a href="#ps" class="headerlink" title="ps"></a>ps</h2>linux中ps(process status) 命令是LINUX下最常用的也是非常强大的进程查看命令，运用该命令可以确定有哪些进程正在运行和运行地状态、进程是否结束、进程有没有僵死、哪些进程占用了过多地资源等等。 ps命令最常用的是用于监控后台进程的工作情况。<br><a href="http://yanue.net/post-87.html" target="_blank" rel="external">详细教程</a>  <h3 id="语法-19"><a href="#语法-19" class="headerlink" title="语法"></a>语法</h3>ps [options] [–help]<h3 id="参数说明-19"><a href="#参数说明-19" class="headerlink" title="参数说明"></a>参数说明</h3>-a 　显示所有终端机下执行的程序，除了阶段作业领导者之外。<br>a 　显示现行终端机下的所有程序，包括其他用户的程序。<br>-A 　显示所有程序。<br>-c 　显示CLS和PRI栏位。<br>c 　列出程序时，显示每个程序真正的指令名称，而不包含路径，参数或常驻服务的标示。<br>-C &lt;指令名称&gt; 　指定执行指令的名称，并列出该指令的程序的状况。<br>-d 　显示所有程序，但不包括阶段作业领导者的程序。<br>-e 　此参数的效果和指定”A”参数相同。<br>e 　列出程序时，显示每个程序所使用的环境变量。<br>-f 　显示UID,PPIP,C与STIME栏位。<br>f 　用ASCII字符显示树状结构，表达程序间的相互关系。<br>-g&lt;群组名称&gt; 　此参数的效果和指定”-G”参数相同，当亦能使用阶段作业领导者的名称来指定。<br>g 　显示现行终端机下的所有程序，包括群组领导者的程序。<br>-G &lt;群组识别码&gt; 　列出属于该群组的程序的状况，也可使用群组名称来指定。<br>h 　不显示标题列。<br>-H 　显示树状结构，表示程序间的相互关系。<br>-j或j 　采用工作控制的格式显示程序状况。<br>-l或l 　采用详细的格式来显示程序状况。<br>L 　列出栏位的相关信息。<br>-m或m 　显示所有的执行绪。<br>n 　以数字来表示USER和WCHAN栏位。<br>-N 　显示所有的程序，除了执行ps指令终端机下的程序之外。<br>-p &lt;程序识别码&gt; 　指定程序识别码，并列出该程序的状况。<br>p &lt;程序识别码&gt; 　此参数的效果和指定”-p”参数相同，只在列表格式方面稍有差异。<br>r 　只列出现行终端机正在执行中的程序。<br>-s &lt;阶段作业&gt; 　指定阶段作业的程序识别码，并列出隶属该阶段作业的程序的状况。<br>s 　采用程序信号的格式显示程序状况。<br>S 　列出程序时，包括已中断的子程序资料。<br>-t &lt;终端机编号&gt; 　指定终端机编号，并列出属于该终端机的程序的状况。<br>t &lt;终端机编号&gt; 　此参数的效果和指定”-t”参数相同，只在列表格式方面稍有差异。<br>-T 　显示现行终端机下的所有程序。<br>-u &lt;用户识别码&gt; 　此参数的效果和指定”-U”参数相同。<br>u 　以用户为主的格式来显示程序状况。<br>-U &lt;用户识别码&gt; 　列出属于该用户的程序的状况，也可使用用户名称来指定。<br>U &lt;用户名称&gt; 　列出属于该用户的程序的状况。<br>v 　采用虚拟内存的格式显示程序状况。<br>-V或V 　显示版本信息。<br>-w或w 　采用宽阔的格式来显示程序状况。<br>x 　显示所有程序，不以终端机来区分。<br>X 　采用旧式的Linux i386登陆格式显示程序状况。<br>-y 　配合参数”-l”使用时，不显示F(flag)栏位，并以RSS栏位取代ADDR栏位。<br>-&lt;程序识别码&gt; 　此参数的效果和指定”p”参数相同。<br>–cols &lt;每列字符数&gt; 　设置每列的最大字符数。<br>–columns &lt;每列字符数&gt; 　此参数的效果和指定”–cols”参数相同。<br>–cumulative 　此参数的效果和指定”S”参数相同。<br>–deselect 　此参数的效果和指定”-N”参数相同。<br>–forest 　此参数的效果和指定”f”参数相同。<br>–headers 　重复显示标题列。<br>–help 　在线帮助。<br>–info 　显示排错信息。<br>–lines &lt;显示列数&gt; 　设置显示画面的列数。<br>–no-headers 　此参数的效果和指定”h”参数相同，只在列表格式方面稍有差异。<br>–group &lt;群组名称&gt; 　此参数的效果和指定”-G”参数相同。<br>–Group &lt;群组识别码&gt; 　此参数的效果和指定”-G”参数相同。<br>–pid &lt;程序识别码&gt; 　此参数的效果和指定”-p”参数相同。<br>–rows &lt;显示列数&gt; 　此参数的效果和指定”–lines”参数相同。<br>–sid &lt;阶段作业&gt; 　此参数的效果和指定”-s”参数相同。<br>–tty &lt;终端机编号&gt; 　此参数的效果和指定”-t”参数相同。<br>–user &lt;用户名称&gt; 　此参数的效果和指定”-U”参数相同。<br>–User &lt;用户识别码&gt; 　此参数的效果和指定”-U”参数相同。<br>–version 　此参数的效果和指定”-V”参数相同。<br>–widty &lt;每列字符数&gt; 　此参数的效果和指定”-cols”参数相同。    </li>
+</ul>
+</blockquote>
+<h2 id="shutdown"><a href="#shutdown" class="headerlink" title="shutdown"></a>shutdown</h2><p>shutdown命令用来系统关机命令。shutdown指令可以关闭所有程序，并依用户的需要，进行重新开机或关机的动作。<br><a href="http://man.linuxde.net/shutdown" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-20"><a href="#语法-20" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>shutdown(选项)(参数)</p>
+<h3 id="参数说明-20"><a href="#参数说明-20" class="headerlink" title="参数说明"></a>参数说明</h3><p>-c：当执行“shutdown -h 11:50”指令时，只要按+键就可以中断关机的指令；<br>-f：重新启动时不执行fsck；<br>-F：重新启动时执行fsck；<br>-h：将系统关机；<br>-k：只是送出信息给所有用户，但不会实际关机；<br>-n：不调用init程序进行关机，而由shutdown自己进行；<br>-r：shutdown之后重新启动；<br>-t&lt;秒数&gt;：送出警告信息和删除信息之间要延迟多少秒。 </p>
+<h3 id="实例-16"><a href="#实例-16" class="headerlink" title="实例"></a>实例</h3><ul>
+<li>1分钟后关机并提示“Yao Guan Ji La”<br><img src="/2017/07/27/linux命令/shutdown.png" alt=""></li>
+</ul>
+</blockquote>
+<h2 id="su"><a href="#su" class="headerlink" title="su"></a>su</h2><p>Linux su命令用于变更为其他使用者的身份，除 root 外，需要键入该使用者的密码。<br><a href="http://www.runoob.com/linux/linux-comm-su.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-21"><a href="#语法-21" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>su [-fmp] [-c command] [-s shell] [–help] [–version] [-] [USER [ARG]]</p>
+<h3 id="参数说明-21"><a href="#参数说明-21" class="headerlink" title="参数说明"></a>参数说明</h3><p>-f 或 –fast 不必读启动档（如 csh.cshrc 等），仅用于 csh 或 tcsh<br>-m -p 或 –preserve-environment 执行 su 时不改变环境变数<br>-c command 或 –command=command 变更为帐号为 USER 的使用者并执行指令（command）后再变回原来使用者<br>-s shell 或 –shell=shell 指定要执行的 shell （bash csh tcsh 等），预设值为 /etc/passwd 内的该使用者（USER） shell<br>–help 显示说明文件<br>–version 显示版本资讯  </p>
+<ul>
+<li>-l 或 –login 这个参数加了之后，就好像是重新 login 为该使用者一样，大部份环境变数（HOME SHELL USER等等）都是以该使用者（USER）为主，并且工作目录也会改变，如果没有指定 USER ，内定是 root<br>USER 欲变更的使用者帐号<br>ARG 传入新的 shell 参数  <h3 id="实例-17"><a href="#实例-17" class="headerlink" title="实例"></a>实例</h3></li>
+</ul>
+<ul>
+<li>su在不加任何参数，默认为切换到root用户<br><img src="/2017/07/27/linux命令/su.png" alt=""></li>
+</ul>
+</blockquote>
+<h2 id="w"><a href="#w" class="headerlink" title="w"></a>w</h2><p>显示目前登入系统的用户信息。<br><a href="http://os.51cto.com/art/200908/144244.htm" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-22"><a href="#语法-22" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>w [-fhlsuV][用户名称]  </p>
+<h3 id="参数说明-22"><a href="#参数说明-22" class="headerlink" title="参数说明"></a>参数说明</h3><p>-f 　开启或关闭显示用户从何处登入系统。<br>-h 　不显示各栏位的标题信息列。<br>-l 　使用详细格式列表，此为预设值。<br>-s 　使用简洁格式列表，不显示用户登入时间，终端机阶段作业和程序所耗费的CPU时间。<br>-u 　忽略执行程序的名称，以及该程序耗费CPU时间的信息。<br>-V 　显示版本信息。  </p>
+<h3 id="实例-18"><a href="#实例-18" class="headerlink" title="实例"></a>实例</h3><p><img src="/2017/07/27/linux命令/w.png" alt=""></p>
+</blockquote>
+<h1 id="系统设置命令"><a href="#系统设置命令" class="headerlink" title="系统设置命令"></a>系统设置命令</h1><h2 id="clear"><a href="#clear" class="headerlink" title="clear"></a>clear</h2><p>Linux clear命令用于清除屏幕。<br><a href="http://www.runoob.com/linux/linux-comm-clear.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-23"><a href="#语法-23" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>clear</p>
+</blockquote>
+<h2 id="rpm"><a href="#rpm" class="headerlink" title="rpm"></a>rpm</h2><p>rpm命令是RPM软件包的管理工具。<br><a href="http://man.linuxde.net/rpm" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-24"><a href="#语法-24" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>rpm(选项)(参数)</p>
+<h3 id="参数说明-23"><a href="#参数说明-23" class="headerlink" title="参数说明"></a>参数说明</h3><p>-a：查询所有套件；<br>-b&lt;完成阶段&gt;&lt;套件档&gt;+或-t &lt;完成阶段&gt;&lt;套件档&gt;+：设置包装套件的完成阶段，并指定套件档的文件名称；<br>-c：只列出组态配置文件，本参数需配合”-l”参数使用；<br>-d：只列出文本文件，本参数需配合”-l”参数使用；<br>-e&lt;套件档&gt;或–erase&lt;套件档&gt;：删除指定的套件；<br>-f&lt;文件&gt;+：查询拥有指定文件的套件；<br>-h或–hash：套件安装时列出标记；<br>-i：显示套件的相关信息；<br>-i&lt;套件档&gt;或–install&lt;套件档&gt;：安装指定的套件档；<br>-l：显示套件的文件列表；<br>-p&lt;套件档&gt;+：查询指定的RPM套件档；<br>-q：使用询问模式，当遇到任何问题时，rpm指令会先询问用户；<br>-R：显示套件的关联性信息；<br>-s：显示文件状态，本参数需配合”-l”参数使用；<br>-U&lt;套件档&gt;或–upgrade&lt;套件档&gt;：升级指定的套件档；<br>-v：显示指令执行过程；<br>-vv：详细显示指令执行过程，便于排错。 </p>
+</blockquote>
+<h1 id="备份压缩命令"><a href="#备份压缩命令" class="headerlink" title="备份压缩命令"></a>备份压缩命令</h1><h2 id="gzip"><a href="#gzip" class="headerlink" title="gzip"></a>gzip</h2><p>gzip命令用来压缩文件。gzip是个使用广泛的压缩程序，文件经它压缩过后，其名称后面会多处“.gz”扩展名。<br><a href="http://man.linuxde.net/gzip" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-25"><a href="#语法-25" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>gzip(选项)(参数)</p>
+<h3 id="参数说明-24"><a href="#参数说明-24" class="headerlink" title="参数说明"></a>参数说明</h3><p>-a或——ascii：使用ASCII文字模式；<br>-d或–decompress或—-uncompress：解开压缩文件；<br>-f或——force：强行压缩文件。不理会文件名称或硬连接是否存在以及该文件是否为符号连接；-h或——help：在线帮助；<br>-l或——list：列出压缩文件的相关信息；<br>-L或——license：显示版本与版权信息；<br>-n或–no-name：压缩文件时，不保存原来的文件名称及时间戳记；<br>-N或——name：压缩文件时，保存原来的文件名称及时间戳记；<br>-q或——quiet：不显示警告信息；<br>-r或——recursive：递归处理，将指定目录下的所有文件及子目录一并处理；<br>-S或&lt;压缩字尾字符串&gt;或—-suffix&lt;压缩字尾字符串&gt;：更改压缩字尾字符串；<br>-t或——test：测试压缩文件是否正确无误；<br>-v或——verbose：显示指令执行过程；<br>-V或——version：显示版本信息； -&lt;压缩效率&gt;：压缩效率是一个介于1~9的数值，预设值为“6”，指定愈大的数值，压缩效率就会愈高；<br>–best：此参数的效果和指定“-9”参数相同；<br>–fast：此参数的效果和指定“-1”参数相同。 </p>
+</blockquote>
+<h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2><p>Linux tar命令用于备份文件。<br>tar是用来建立，还原备份文件的工具程序，它可以加入，解开备份文件内的文件。<br><a href="http://www.cnblogs.com/li-hao/archive/2011/10/03/2198480.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-26"><a href="#语法-26" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>tar [主选项+辅选项] 文件或者目录  </p>
+</blockquote>
+<p>使用该命令时，主选项是必须要有的，它告诉tar要做什么事情，辅选项是辅助使用的，可以选用。</p>
+<h3 id="参数说明-25"><a href="#参数说明-25" class="headerlink" title="参数说明"></a>参数说明</h3><p>主选项：<br>c 创建新的档案文件。如果用户想备份一个目录或是一些文件，就要选择这个选项。相当于打包。<br>x 从档案文件中释放文件。相当于拆包。<br>t 列出档案文件的内容，查看已经备份了哪些文件。<br>特别注意，在参数的下达中， c/x/t 仅能存在一个！不可同时存在！因为不可能同时压缩与解压缩。<br>辅助选项：<br>-z ：是否同时具有 gzip 的属性？亦即是否需要用 gzip 压缩或解压？ 一般格式为xx.tar.gz或xx. tgz<br>-j ：是否同时具有 bzip2 的属性？亦即是否需要用 bzip2 压缩或解压？一般格式为xx.tar.bz2<br>-v ：压缩的过程中显示文件！这个常用<br>-f ：使用档名，请留意，在 f 之后要立即接档名喔！不要再加其他参数！<br>-p ：使用原文件的原来属性（属性不会依据使用者而变）<br>–exclude FILE：在压缩的过程中，不要将 FILE 打包！  </p>
+<h2 id="zip"><a href="#zip" class="headerlink" title="zip"></a>zip</h2><p>Linux zip命令用于压缩文件。<br>zip是个使用广泛的压缩程序，文件经它压缩后会另外产生具有”.zip”扩展名的压缩文件。<br><a href="http://www.cnblogs.com/li-hao/archive/2011/10/03/2198480.html" target="_blank" rel="external">详细教程</a></p>
+<h3 id="语法-27"><a href="#语法-27" class="headerlink" title="语法"></a>语法</h3><blockquote>
+<p>zip [-AcdDfFghjJKlLmoqrSTuvVwXyz$][-b &lt;工作目录&gt;][-ll][-n &lt;字尾字符串&gt;][-t &lt;日期时间&gt;][-&lt;压缩效率&gt;][压缩文件][文件…][-i &lt;范本样式&gt;][-x &lt;范本样式&gt;]</p>
+<h3 id="参数说明-26"><a href="#参数说明-26" class="headerlink" title="参数说明"></a>参数说明</h3><p>-A 调整可执行的自动解压缩文件。<br>-b&lt;工作目录&gt; 指定暂时存放文件的目录。<br>-c 替每个被压缩的文件加上注释。<br>-d 从压缩文件内删除指定的文件。<br>-D 压缩文件内不建立目录名称。<br>-f 此参数的效果和指定”-u”参数类似，但不仅更新既有文件，如果某些文件原本不存在于压缩文件内，使用本参数会一并将其加入压缩文件中。<br>-F 尝试修复已损坏的压缩文件。<br>-g 将文件压缩后附加在既有的压缩文件之后，而非另行建立新的压缩文件。<br>-h 在线帮助。<br>-i&lt;范本样式&gt; 只压缩符合条件的文件。<br>-j 只保存文件名称及其内容，而不存放任何目录名称。<br>-J 删除压缩文件前面不必要的数据。<br>-k 使用MS-DOS兼容格式的文件名称。<br>-l 压缩文件时，把LF字符置换成LF+CR字符。<br>-ll 压缩文件时，把LF+CR字符置换成LF字符。<br>-L 显示版权信息。<br>-m 将文件压缩并加入压缩文件后，删除原始文件，即把文件移到压缩文件中。<br>-n&lt;字尾字符串&gt; 不压缩具有特定字尾字符串的文件。<br>-o 以压缩文件内拥有最新更改时间的文件为准，将压缩文件的更改时间设成和该文件相同。<br>-q 不显示指令执行过程。<br>-r 递归处理，将指定目录下的所有文件和子目录一并处理。<br>-S 包含系统和隐藏文件。<br>-t&lt;日期时间&gt; 把压缩文件的日期设成指定的日期。<br>-T 检查备份文件内的每个文件是否正确无误。<br>-u 更换较新的文件到压缩文件内。<br>-v 显示指令执行过程或显示版本信息。<br>-V 保存VMS操作系统的文件属性。<br>-w 在文件名称里假如版本编号，本参数仅在VMS操作系统下有效。<br>-x&lt;范本样式&gt; 压缩时排除符合条件的文件。<br>-X 不保存额外的文件属性。<br>-y 直接保存符号连接，而非该连接所指向的文件，本参数仅在UNIX之类的系统下有效。<br>-z 替压缩文件加上注释。<br>-$ 保存第一个被压缩文件所在磁盘的卷册名称。<br>-&lt;压缩效率&gt; 压缩效率是一个介于1-9的数值。  </p>
+</blockquote>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
+        </div>
+        <nav class="pagination" role="pagination">
+    
+    <a class="pull-left" href="/2017/07/27/linux系统目录结构/" style="float: left;">
+        ← linux系统目录结构
+    </a>
+    
+    
+    <a class="pull-right" href="/2017/07/27/linux的yum命令/">
+        linux的yum命令 →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+
+
+</div>
+    </div>
+</section>
+
+
+      
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By Dream. All Rights Reserved.
+                </p>
+                <p>Theme By <a href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
+            </div>
+            <div class="social">
+                <ul>
+                    
+                    <li><a href="https://github.com/" title="Github" target="_blank"><i class="icon-github"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://twitter.com/" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="icon-facebook"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i class="icon-google-plus"></i></a>&nbsp;</li>
+                    
+                    
+                    <li><a href="http://weibo.com/" title="Sina-Weibo" target="_blank"><i class="icon-sina-weibo"></i></a>&nbsp;</li>
+                    
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
+<script src="/js/jquery.flexslider-min.js"></script><!-- Flexslider plugin -->
+<script src="/js/scripts.js"></script><!-- Theme scripts -->
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+<!-- Initiate flexslider plugin -->
+<script type="text/javascript">
+    $(document).ready(function($) {
+      (function(){
+        console.log('font');
+        var getCss = function(path) {
+          var head = document.getElementsByTagName('head')[0];
+          link = document.createElement('link');
+          link.href = path;
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          head.appendChild(link);
+        };
+        getCss('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+        getCss('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+      })();
+      $('.flexslider').flexslider({
+        animation: "fade",
+        prevText: "",
+        nextText: "",
+        directionNav: true
+      });
+    });
+</script>
+
+</body>
+</html>
